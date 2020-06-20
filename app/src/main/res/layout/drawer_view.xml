@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:background="@color/colorPrimaryDark"
+         >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:id="@+id/user_img"
+            android:src="@drawable/user_image"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="55dp"
+            app:civ_border_width="2dp"
+            android:foregroundGravity="center"
+            app:civ_border_color="#000000"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user_img"
+            android:layout_marginTop="10dp"
+            android:text="username"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="@color/colorAccent"
+            android:id="@+id/userName_text"
+            android:layout_alignParentLeft="true"
+            />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="246dp"
+        android:src="@drawable/ic_cart" />
+
+
+    <TextView
+        android:id="@+id/cart_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="245dp"
+        android:paddingLeft="80dp"
+        android:text="Cart"
+        android:textColor="#195591"
+        android:textSize="25dp"
+
+        />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="325dp"
+        android:src="@drawable/order" />
+
+
+    <TextView
+        android:id="@+id/search_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:paddingLeft="80dp"
+        android:text="Search"
+        android:textColor="#195591"
+        android:textSize="25dp" />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="397dp"
+        android:src="@drawable/ic_attachment" />
+
+
+    <TextView
+        android:id="@+id/categories_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="395dp"
+        android:paddingLeft="80dp"
+        android:text="Categories"
+        android:textColor="#195591"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="472dp"
+        android:src="@drawable/ic_build" />
+
+
+    <TextView
+        android:id="@+id/settings_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="470dp"
+        android:paddingLeft="80dp"
+        android:text="Settings"
+        android:textColor="#195591"
+        android:textSize="25dp" />
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="547dp"
+        android:src="@drawable/ic_input" />
+
+
+    <TextView
+        android:id="@+id/logOut_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="545dp"
+        android:paddingLeft="80dp"
+        android:text="Log Out"
+        android:textColor="#195591"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>
+

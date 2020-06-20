@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#77C2E7"
+    tools:context=".viewHolder.CategoriesFragment"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/editUser_Image"
+
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/user_image"
+        app:civ_border_width="2dp"
+        android:foregroundGravity="center"
+        app:civ_border_color="#000000"/>
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editUser_Image"
+        android:layout_marginTop="22dp"
+        android:text="select image"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/custom_btn"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/select_userImage_btn"
+        />
+
+    <EditText
+        android:id="@+id/edit_PhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edit_background"
+        android:layout_below="@+id/select_userImage_btn"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <EditText
+        android:id="@+id/edit_Passwo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edit_background"
+        android:layout_below="@+id/select_userImage_btn"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:visibility="gone"
+        />
+
+    <EditText
+        android:id="@+id/edit_fullName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edit_background"
+        android:layout_below="@+id/edit_PhoneNumber"
+        android:hint="full Name..."
+        android:inputType="text"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <EditText
+        android:id="@+id/edit_Address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/edit_background"
+        android:layout_below="@+id/edit_fullName"
+        android:hint="Address..."
+        android:inputType="text"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp" />
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_Address"
+        android:layout_marginTop="22dp"
+        android:text="Save"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/custom_product_btn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:id="@+id/save_editBtn"
+        />
+
+    <Button
+        android:id="@+id/security_Question_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="Set Security Question"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/custom_product_btn"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/colorAccent" />
+
+
+</RelativeLayout>

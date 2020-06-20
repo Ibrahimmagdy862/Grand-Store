@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+
+    android:elevation="15dp"
+    app:cardElevation="20dp"
+    app:cardCornerRadius="10dp"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="User Name"
+            android:textSize="17dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/order_User_name"
+            android:textStyle="bold"
+            android:background="#990066"
+            />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textSize="17dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_toRightOf="@+id/order_User_name"
+            android:id="@+id/order_User_PhoneNum"
+            android:layout_alignParentRight="true"
+            android:textStyle="bold"
+            android:background="#990066"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="totalAmount Price"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/order_totalAmount_Price"
+            android:textStyle="bold"
+            android:layout_below="@+id/order_User_name"
+            android:layout_marginTop="10dp"
+            android:background="#990066"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address , City"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/order_address_City"
+            android:textStyle="bold"
+            android:layout_below="@+id/order_totalAmount_Price"
+            android:layout_marginTop="10dp"
+            android:background="#990066"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date , Time"
+            android:textSize="18dp"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/order_date_time"
+            android:textStyle="bold"
+            android:layout_below="@+id/order_address_City"
+            android:layout_marginTop="10dp"
+            android:background="#990066"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Show this Order Details"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+
+            android:layout_alignParentLeft="true"
+            android:id="@+id/show_order_details"
+            android:textStyle="bold"
+            android:layout_below="@+id/order_address_City"
+            android:layout_marginTop="45dp"
+            android:background="@color/colorAccent"
+            />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

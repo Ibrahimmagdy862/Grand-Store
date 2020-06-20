@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admins.Admin_Maintain_ProductsActivity">
+
+    <ImageView
+        android:id="@+id/apply_p_Image"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+
+    <EditText
+        android:id="@+id/apply_p_Name"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:hint="Product Name"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_below="@+id/apply_p_Image"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/edit_background"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/apply_p_Price"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/apply_p_Description"
+        android:hint="Product Price"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_background"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/apply_p_Description"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_below="@+id/apply_p_Name"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/edit_background"
+        android:hint="Product Description"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/applyChanges_btn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_below="@+id/apply_p_Price"
+        android:layout_marginTop="15dp"
+        android:padding="20dp"
+        android:text="Apply Changes"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_product_btn"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/delete_this_product_btn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="10dp"
+        android:padding="20dp"
+        android:text="Delete this Product"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/custom_product_btn"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

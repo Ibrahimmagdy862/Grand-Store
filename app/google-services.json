@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "109499373111",
+    "firebase_url": "https://grandstoredb.firebaseio.com",
+    "project_id": "grandstoredb",
+    "storage_bucket": "grandstoredb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109499373111:android:83067fa98af15976c4d1b2",
+        "android_client_info": {
+          "package_name": "com.reload.grandstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109499373111-l78un7gp0h7ug73kjmsjvnlb0684l17j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSs1eheRqKY10dT4IvkFZ9WulU2p8dbGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109499373111-l78un7gp0h7ug73kjmsjvnlb0684l17j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
